@@ -1,0 +1,28 @@
+import = ["~/.config/alacritty/alacritty-master/dracula.toml"]
+shell = "/bin/zsh"
+
+[env]
+    TERM="xterm-256color"
+
+
+[window]
+    decorations = "Full"
+    opacity = 0.92
+    dynamic_title = true
+    decorations_theme_variant = "None"
+    class = { instance="Alacritty", general="Alacritty" }
+
+[font]
+    normal = { family="Cascadia Code PL", style="Regular" }
+    bold = { family="monospace", style="Bold" }
+
+#[colors]
+#    draw_bold_text_with_bright_colors=true
+#    primary = {foreground="#ffffff", background="#000000", bright_foreground="#e63048"}
+
+[selection]
+    save_to_clipboard=true
+
+[cursor]
+    style={shape="Beam", blinking="Always"}
+    blink_interval=450
